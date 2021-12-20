@@ -1,29 +1,29 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import HelloWorld from '../components/HelloWorld.vue'
-import Inscription from '../components/Inscription.vue'
-import Connecter from '../components/Connecter.vue'
+import { createRouter, createWebHistory } from "vue-router";
+import Home from '../components/home.vue'
+import Login from '../components/login.vue'
+import Register from '../components/register.vue'
 
 const routes = [
-  {
-    path: '/hello',
-    name: 'hello',
-    component: HelloWorld
-  },
-  {
-    path: '/ins',
-    name: 'inscription',
-    component: Inscription
-  },
-  {
-    path: '/bro',
-    name: 'Connecter',
-    component: Connecter
-  }
+    {
+        path: '/',
+        name: 'Home',
+        component: Home
+    },
+    {
+        path: '/login',
+        name: 'Login',
+        component: Login
+    },
+    {
+        path: '/register',
+        name: 'Register',
+        component: Register
+    }
 ]
 
 const router = createRouter({
-  history: createWebHistory(""),
-  routes
+    history: createWebHistory(),
+    routes
 })
 
 export default router
