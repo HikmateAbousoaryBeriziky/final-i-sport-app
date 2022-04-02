@@ -8,7 +8,6 @@
 import Home from './components/home.vue'
 import Login from './components/login.vue'
 import Register from './components/register.vue'
-
 export default {
   name: 'App',
   components: {
