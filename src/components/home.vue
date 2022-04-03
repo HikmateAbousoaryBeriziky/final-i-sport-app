@@ -43,8 +43,8 @@
       <hr />
       <div class="-py-10 text-center -mb-20">
         <h1 class="text-4xl">
-          Institut superieur
-          <span class="text-yellow-500">polytechnique</span> de Madagascar
+          Institut Superieur
+          <span class="text-yellow-500">Polytechnique</span> de Madagascar
         </h1>
         <br />
         <p>
